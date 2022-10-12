@@ -60,3 +60,39 @@
   color: #818181;
   text-decoration: none;
 }
+.btn-display{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.btn1-m{
+  margin-right: 1rem !important;
+}
+.btn2-m{
+  margin-left: 1rem !important;
+}
+.fs-6{
+  font-size: 1.25rem !important;
+}
+@media(max-width: 768px){
+  .btn-display{
+    flex-direction: column !important;  
+    align-content: space-between !important;
+  }
+  .w-small{
+    width: 75% !important;
+  }
+  .btn1-m{
+    margin: auto !important;
+  }
+  .btn2-m{
+    margin: auto !important;
+    margin-top: 2rem !important;
+  }
+  .fs-6{
+    font-size: 1.0rem !important;
+  }
+}
+
+
+
