@@ -24,7 +24,7 @@ function App() {
                 lacusat augue aliquet posuere. Aliquam fringilla elementum varius.
                 Nunclobortis nisl in nibh commodo, quis placerat nisi feugiat.
               </p>
-              <p className='fs-7'>Image from <a className='freepik' href='#'>Freepik</a></p>
+              <p className='fs-7'>Image from <a className='freepik' href='github.com'>Freepik</a></p>
             </div>
 
             <div className='btn-display mt-5'>
@@ -42,7 +42,7 @@ function App() {
       <Container className='sec-footer' as={'section'} fluid>
         <footer>
             <p className='text-center text-white fs-6 pt-2'>
-              <a className='custom-link' href='#'>Website Template</a> created with <a className='custom-link' href='#'>Website Builder Software</a></p>
+              <a className='custom-link' href='github.com'>Website Template</a> created with <a className='custom-link' href='github.com'>Website Builder Software</a></p>
         </footer>
       </Container>
     </Fragment>
